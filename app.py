@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # ── Commschool brand colors ──────────────────────────────────────────────────
-CS_GREEN  = "#00E324"
+CS_GREEN  = "#00C220"
 CS_DARK   = "#1A1A1A"
 CS_CARD   = "#222222"
 CS_TEXT   = "#F5F5F5"
@@ -208,7 +208,7 @@ if logo_path.exists():
         <img src="data:image/jpeg;base64,{logo_b64}" alt="Commschool logo"/>
     </div>""", unsafe_allow_html=True)
 
-st.markdown('<div class="cs-tag">Commschool Team Gift</div>', unsafe_allow_html=True)
+
 
 # ── Hero ──────────────────────────────────────────────────────────────────────
 st.markdown("""
@@ -219,7 +219,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Audio Player ──────────────────────────────────────────────────────────────
-audio_path = Path("Happy_Birthday_Gomshi.mp3")
+audio_path = Path("Happy Birthday Gomshi.mp3")
 if audio_path.exists():
     with open(audio_path, "rb") as f:
         audio_b64 = base64.b64encode(f.read()).decode()
