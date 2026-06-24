@@ -9,7 +9,7 @@ st.set_page_config(
     layout="centered"
 )
 
-# ── Commschool brand colors ──────────────────────────────────────────────────
+# ── commschool brand colors ──────────────────────────────────────────────────
 CS_GREEN  = "#00C220"
 CS_DARK   = "#1A1A1A"
 CS_CARD   = "#222222"
@@ -205,7 +205,7 @@ if logo_path.exists():
         logo_b64 = base64.b64encode(f.read()).decode()
     st.markdown(f"""
     <div class="cs-logo-wrap">
-        <img src="data:image/jpeg;base64,{logo_b64}" alt="Commschool logo"/>
+        <img src="data:image/jpeg;base64,{logo_b64}" alt="commschool logo"/>
     </div>""", unsafe_allow_html=True)
 
 
@@ -214,7 +214,7 @@ if logo_path.exists():
 st.markdown("""
 <div class="cs-hero">
   <h1>Happy Birthday<br><span>Gomshi 🎷</span></h1>
-  <p>From the whole Commschool crew — with love</p>
+  <p>From the whole commschool crew — with love</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -238,13 +238,13 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("""
 <div class="cs-card">
   <h3>A message from the team</h3>
-  <p>Gomshi, happy birthday from Commschool team! 🎉</p>
+  <p>Gomshi, happy birthday from commschool team! 🎉</p>
 </div>
 """, unsafe_allow_html=True)
 
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="cs-footer">
-  Made with ♥ by the <span>Commschool</span> Team · 2026
+  Made with ♥ by the <span>commschool</span> Team · 2026
 </div>
 """, unsafe_allow_html=True)
