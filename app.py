@@ -238,27 +238,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("""
 <div class="cs-card">
   <h3>A message from the team</h3>
-  <p>
-    Gomshi, you built something real — a school with a heartbeat.<br><br>
-    You took the hungry ones, the driven ones, the ones who wanted more,
-    and gave them the knowledge of tomorrow and the hunger to keep getting better.<br><br>
-    Commschool stands because <strong style="color:#00E324;">you</strong> came.
-    And we're all better for it.
-  </p>
-  <div class="cs-quote">
-    "Commschool wouldn't swing without you." 🎷
-  </div>
-</div>
-""", unsafe_allow_html=True)
-
-# ── Mission Card ─────────────────────────────────────────────────────────────
-st.markdown("""
-<div class="cs-card">
-  <h3>Our mission — your vision</h3>
-  <p>
-    To help driven people win by equipping them with the knowledge of tomorrow
-    and the hunger to keep getting better.
-  </p>
+  <p>Gomshi, happy birthday from Commschool team! 🎉</p>
 </div>
 """, unsafe_allow_html=True)
 
